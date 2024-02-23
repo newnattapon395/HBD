@@ -5,6 +5,12 @@
 	height: 100%;
   font-family: 'Kaushan Script','Sail', cursive;
 } */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 body {
  background:white;

@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body{
+    background: #000;
+}
+
+/* ------------------------------------------- */
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;   
+    width: 100%;
+    z-index: 10000;
+    transition: 1s;
+
+}
+
+
+.inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem ;
+}
+
+.sticky{
+    /* transition: 0.5s; */
+    background-color: #fff;
+}
+
+.sticky .inner{
+    padding: 0.2rem ;
+    transition: 0.3s;
+}
+
+.sticky .inner .logo a,
+.sticky .inner ul a{
+    color: #000;
+}
+
+
+.inner .logo {
+    position: relative;
+}
+
+.inner .logo a {
+    font-weight: 800;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    /* ตัวพิมใหญ่ */
+    text-transform: uppercase;
+    /* ระยะห่างระหว่างตัวอักษร */
+    letter-spacing: 5px;
+    transition: 0.5s;
+}
+
+.inner ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner ul li{
+    position: relative;
+    list-style: none;
+}
+
+.inner ul li a{
+    position: relative;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+/* ---------------------------------------------------------- */
+
+.section1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../pic/happy-birthday-154242_1280.png )no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* ------------------------------------------------- */
+
+.section2{
+    height: 100vh;
+}
+
+.sec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 1rem;
+}
+
+.sec2-info{
+    color: #fff;
+}
+
+.images img{
+    margin-top: 2rem;
+    width: 70%;
+    border-radius: 20px;
+    text-align: center;
+}
