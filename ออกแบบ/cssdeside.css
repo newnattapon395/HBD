@@ -98,9 +98,14 @@ nav {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(../pic/happy-birthday-154242_1280.png )no-repeat;
+    background: url(pic/happy-birthday-154242_1280.png )no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+audio{
+    margin-top: 4rem;
+    width: 100%;
 }
 
 /* ------------------------------------------------- */
